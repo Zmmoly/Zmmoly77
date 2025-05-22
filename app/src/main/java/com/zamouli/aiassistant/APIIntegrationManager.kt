@@ -8,6 +8,18 @@ import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
+// استيراد الفئات الموحدة من SharedModels.kt
+import com.zamouli.aiassistant.ImageAnalysisResult
+import com.zamouli.aiassistant.DetectedObject
+import com.zamouli.aiassistant.Rect
+import com.zamouli.aiassistant.Coordinates
+import com.zamouli.aiassistant.Place
+import com.zamouli.aiassistant.RouteInfo
+import com.zamouli.aiassistant.WeatherInfo
+import com.zamouli.aiassistant.WeatherForecast
+import com.zamouli.aiassistant.ActivityData
+import com.zamouli.aiassistant.SleepData
+import com.zamouli.aiassistant.SearchResult
 
 /**
  * مدير تكامل واجهات برمجة التطبيقات (APIs)
